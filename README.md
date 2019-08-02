@@ -28,6 +28,7 @@ Each notebook contains codes which performe UMI screening and trimming, linker t
 * Truseq_Bowtie_Density_RPKM.ipynb - for RNA-seq libraries
 
 ### Data analyses
+* SDfigure.csv - contains RPKM, RPC (read per codon), read counts from each library calculated in data processing; also contains SD-ASD affinity, GINI index, SHAPE reactivity
 * SDASD_freealign.ipynb - calculates SD-ASD affinity of each gene
 * SDASD_ShapeReactivity.ipynb - calculates SHAPE reactivity of each gene 
 * SDASD_Correlation.ipynb - calculates linear correlation and creates scatter plots
