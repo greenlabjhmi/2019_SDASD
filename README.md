@@ -22,7 +22,7 @@ The codes to process and analyze FASTQ files obtained from the MS2 pulldown ribo
 
 ### Data processing
 Each notebook contains codes which performe UMI screening and trimming, linker trimming, chromsome mapping, and calculation of RPM and RPKM. For a library sequenced multiple times, merge fastq files before mapping by bowtie. 
-* SDASD_Genes_TranscriptionUnits.ipynb - creates "Ecoli_Gene_TU.pickle" requied for calculation of RPKM during data processing
+* SDASD_Genes_TranscriptionUnits.ipynb - creates a dictionary "Ecoli_Gene_TU.pickle", requied for calculation of RPKM during data processing, based on "coli.gff" and "mbo004141900st4_TranscriptionUnits.csv"
 * Skewer_Bowtie_Density_RPKM.ipynb - for ribosome profiling libraries without UMI 
 * Tally_Skewer_Seqtk_Bowtie_Density_RPKM.ipynb - for ribosome profiling libraries with UMI
 * Truseq_Bowtie_Density_RPKM.ipynb - for RNA-seq libraries
