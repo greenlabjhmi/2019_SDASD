@@ -1,6 +1,6 @@
 # 2019_SDASD
 
-The codes to process and analyze FASTQ files obtained from the MS2 pulldown ribosome profiling, standard ribosome profiling, and RNAseq in “A Genome-Wide Analysis of the Role of Shine-Dalgarno Sequences in Promoting Translation in E. coli”. First run codes for data processings, then run codes for data analyses.
+The codes to process and analyze FASTQ files obtained from the MS2 pulldown ribosome profiling, standard ribosome profiling, and RNAseq in “A Genome-Wide Analysis of the Role of Shine-Dalgarno Sequences in Promoting Translation in E. coli”. First run codes for data processing, then run codes for data analyses.
 
 ### Dependencies
 * Tally
@@ -20,8 +20,9 @@ The codes to process and analyze FASTQ files obtained from the MS2 pulldown ribo
 * R
 * xtail
 
-### Data processings
+### Data processing
 Each notebook contains codes which performe UMI screening and trimming, linker trimming, chromsome mapping, and calculation of RPM and RPKM. For a library sequenced multiple times, merge fastq files before mapping by bowtie. 
+* SDASD_Genes_TranscriptionUnits.ipynb - creates "Ecoli_Gene_TU.pickle" requied for calculation of RPKM during data processing
 * Skewer_Bowtie_Density_RPKM.ipynb - for ribosome profiling libraries without UMI 
 * Tally_Skewer_Seqtk_Bowtie_Density_RPKM.ipynb - for ribosome profiling libraries with UMI
 * Truseq_Bowtie_Density_RPKM.ipynb - for RNA-seq libraries
