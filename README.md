@@ -27,6 +27,8 @@ Each notebook contains codes which performe UMI screening and trimming, linker t
 * Truseq_Bowtie_Density_RPKM.ipynb - for RNA-seq libraries
 
 ### Data analyses
+* SDASD_freealign.ipynb - calculates SD-ASD affinity of each gene
+* SDASD_ShapeReactivity.ipynb - calculates SHAPE reactivity of each gene 
 * SDASD_Correlation.ipynb - calculates linear correlation and creates scatter plots
 * SDASD_DensityPlot.ipynb - creates density plots 
 * SDASD_Stresses_Xtail.ipynb - run xtail to compare effect of SD motifs between optimal and stress conditions
