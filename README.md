@@ -17,6 +17,7 @@ The codes to process and analyze FASTQ files obtained from the MS2 pulldown ribo
 * pandas
 * matplotlib
 * seaborn
+* kpLogo-1.1
 * R
 * xtail
 
