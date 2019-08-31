@@ -40,4 +40,5 @@ Each notebook contains codes which performe UMI screening and trimming, linker t
 * SDASD_RET_DensityPlot.ipynb - creates density plots of retapamulin-treated ribosome profilnig
 * SDASD_RET_AGP.ipynb - creates average gene plot of retapamulin-treated ribosome profilnig on annotated and non-annoated AUGs
 * SDASD_RET_ViolinPlot.ipynb - calculates initiation scores and creates violin plots
+* SDASD_RET_kpLogo.ipynb - makes fasta files of specified AUGs then creates various Logo plots including probability logo plots 
 * SDASD_ShapeReactivity_StartVSNonstart.ipynb - compares median and IQR of SHAPE reactivity between annotated and non-annotated AUGs
